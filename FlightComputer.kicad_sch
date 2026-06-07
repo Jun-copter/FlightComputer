@@ -1,0 +1,412 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c0a97758-75a3-49d0-abcc-edce55d99095")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 181.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e6af5a-2719-4144-b2b2-84a787efca4b")
+	)
+	(wire
+		(pts
+			(xy 113.03 66.04) (xy 181.61 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23014eab-f223-4468-be14-381e69aaf3c5")
+	)
+	(wire
+		(pts
+			(xy 113.03 53.34) (xy 181.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491bf1aa-d99c-4c63-9255-09c52e94155d")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb991bd-cca3-4dbf-a3cc-fa0ac95d112b")
+	)
+	(wire
+		(pts
+			(xy 113.03 55.88) (xy 181.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5357c45-f094-4a9b-b3f8-3a2b4639af4a")
+	)
+	(wire
+		(pts
+			(xy 113.03 50.8) (xy 181.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4711775-57eb-49e8-ab41-aae9f6381bad")
+	)
+	(wire
+		(pts
+			(xy 113.03 63.5) (xy 181.61 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81472c0-429b-4476-873f-26c4538837c4")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db388aba-7b8b-45b0-a896-4059a78213b1")
+	)
+	(sheet
+		(at 33.02 44.45)
+		(size 80.01 83.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "57068174-e220-4e49-a97a-8507f2dd583c")
+		(property "Sheetname" "Microcontroller"
+			(at 33.02 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 33.02 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ASM330LHBTR_NSS" input
+			(at 113.03 50.8 0)
+			(uuid "143343df-ec1d-4c6d-a780-1fb89648619c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMI270_NSS" input
+			(at 113.03 53.34 0)
+			(uuid "5fafaf8a-eb0a-4c27-9b33-896e40752718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMP388_NSS" input
+			(at 113.03 55.88 0)
+			(uuid "7f77bcf5-d049-4365-9ba8-560431ecd4f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 113.03 90.17 0)
+			(uuid "2e306241-defa-46f4-8e1a-cad6374d65a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 113.03 92.71 0)
+			(uuid "b2d3fa38-f7ef-4a1e-b62e-0918d46010be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SCL" bidirectional
+			(at 113.03 114.3 0)
+			(uuid "4a81fbd9-a92a-43a2-9ecd-fc5565c91b40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 113.03 116.84 0)
+			(uuid "c13c60de-6a0c-417a-b791-aa6dfd7be1f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 113.03 60.96 0)
+			(uuid "b1b299cc-0e25-4eba-a82c-575fd79a2423")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 113.03 63.5 0)
+			(uuid "90647a7b-30f2-4c37-8f54-2615c690e5a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" bidirectional
+			(at 113.03 66.04 0)
+			(uuid "746fa4a9-60a0-4b15-bb00-532691b123b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/c0a97758-75a3-49d0-abcc-edce55d99095"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 86.36)
+		(size 80.01 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7db8ef18-98fd-453c-9757-095515a4ad55")
+		(property "Sheetname" "Power"
+			(at 181.61 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 181.61 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 181.61 90.17 180)
+			(uuid "b37ee704-66fa-47dd-8844-170aa965d56d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 181.61 92.71 180)
+			(uuid "1e4c7152-4616-44f0-a7c6-93ea61178a16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/c0a97758-75a3-49d0-abcc-edce55d99095"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 44.45)
+		(size 80.01 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9070e408-67b7-463d-8071-f3d658bb9cc1")
+		(property "Sheetname" "SensingInterface"
+			(at 181.61 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensing_interface.kicad_sch"
+			(at 181.61 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ASM330LHBTR_NSS" input
+			(at 181.61 50.8 180)
+			(uuid "82d48a2c-6176-4ffd-9938-cceff554d144")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI270_NSS" input
+			(at 181.61 53.34 180)
+			(uuid "0edfbe62-48d0-4339-a551-1952f4821f14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMP388_NSS" input
+			(at 181.61 55.88 180)
+			(uuid "8bf7afe3-1fd9-47a5-a1bb-076547299012")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 181.61 60.96 180)
+			(uuid "3edca28a-ee70-44ec-974d-4fd58a11bf2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 181.61 63.5 180)
+			(uuid "78c7fed8-bc9a-4e1f-bd24-2f6256ad590f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" bidirectional
+			(at 181.61 66.04 180)
+			(uuid "7ac60717-59bc-4428-842b-bdb20bf0ab45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/c0a97758-75a3-49d0-abcc-edce55d99095"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
