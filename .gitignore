@@ -1,0 +1,29 @@
+# ---- KiCad ----
+# Lock files (created while an editor has the file/project open)
+*.lck
+~*.lck
+
+# Auto-saved / backup files
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_*.bak
+*.bak
+*.000
+
+# Footprint info cache (regenerated on demand)
+fp-info-cache
+
+# Per-user project-local settings (window state, last-opened, etc.)
+# Shared project config (.kicad_pro) IS tracked; .kicad_prl is per-user.
+*.kicad_prl
+
+# ---- Editor / tooling ----
+.history/
+.vscode/
+.easyeda_cache/
+
+# ---- Python (tools/) ----
+__pycache__/
+*.pyc
