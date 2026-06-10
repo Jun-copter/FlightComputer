@@ -5222,7 +5222,7 @@
 		(uuid "23744bc6-88f5-4c6e-b1e6-ec703aff2f16")
 	)
 	(label "USART1_TX"
-		(at 104.14 129.54 0)
+		(at 124.46 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5252,7 +5252,7 @@
 		(uuid "379c8aa0-ce3b-457c-909f-e67abef612a4")
 	)
 	(label "USART1_RX"
-		(at 104.14 132.08 0)
+		(at 124.46 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6986,7 +6986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 228.6 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7406,7 +7406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 215.9 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8599,7 +8599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 228.6 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9129,7 +9129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 215.9 128.27 0)
 			(hide yes)
 			(show_name no)
