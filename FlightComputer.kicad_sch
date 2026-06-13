@@ -5,26 +5,6 @@
 	(uuid "c0a97758-75a3-49d0-abcc-edce55d99095")
 	(paper "A4")
 	(lib_symbols)
-	(text_box "NavBoard Connector"
-		(exclude_from_sim no)
-		(at 26.67 153.5317 0)
-		(size 25.4 3.9483)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f16e53dd-67f6-415e-9a07-c909cea2ba9a")
-	)
 	(wire
 		(pts
 			(xy 113.03 114.3) (xy 115.57 114.3)
@@ -343,6 +323,106 @@
 				(justify left)
 			)
 		)
+		(pin "FDCAN1_RX" input
+			(at 33.02 101.6 180)
+			(uuid "d9fa9d5a-dd0d-4685-9666-470ea5f57dae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN1_TX" output
+			(at 33.02 104.14 180)
+			(uuid "8d4b09e0-d472-4f67-a7da-1040fb0fc225")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3_SCL" bidirectional
+			(at 33.02 80.01 180)
+			(uuid "4e722538-22bc-48cd-a9c1-da4315dcae12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 33.02 77.47 180)
+			(uuid "32ee60eb-4653-4661-9cec-8d1ac8e19fe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART4_RX" input
+			(at 33.02 92.71 180)
+			(uuid "dea7b57f-f7ae-4540-a285-fdd05f52a949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART4_TX" output
+			(at 33.02 90.17 180)
+			(uuid "476e03f1-670b-4e42-868b-23a4b93f1ffb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART3_RX" input
+			(at 33.02 83.82 180)
+			(uuid "bac8f39b-11d6-40b1-8a27-a24ca3f21810")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART3_TX" output
+			(at 33.02 86.36 180)
+			(uuid "9c59caff-f66f-4212-93cd-eefd7bfa1427")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 33.02 71.12 180)
+			(uuid "2ae860d5-a16d-4fe8-ac0d-6c64d12bcdeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 33.02 73.66 180)
+			(uuid "12c53aad-5a44-4c6d-a484-97219536e965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "FlightComputer"
 				(path "/c0a97758-75a3-49d0-abcc-edce55d99095"
@@ -352,7 +432,7 @@
 		)
 	)
 	(sheet
-		(at 181.356 134.62)
+		(at 105.918 146.558)
 		(size 33.274 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -368,7 +448,7 @@
 		)
 		(uuid "777105f3-a0fa-4258-a0c9-2622f44cc7f1")
 		(property "Sheetname" "IO"
-			(at 181.356 133.9084 0)
+			(at 105.918 145.8464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -379,7 +459,7 @@
 			)
 		)
 		(property "Sheetfile" "IO.kicad_sch"
-			(at 181.356 161.3666 0)
+			(at 105.918 173.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -565,6 +645,52 @@
 			(project "FlightComputer"
 				(path "/c0a97758-75a3-49d0-abcc-edce55d99095"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 146.558)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "adc4de3e-360b-4dcf-8274-516bcbd2c822")
+		(property "Sheetname" "COMMS"
+			(at 34.29 145.8464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "COMMS.kicad_sch"
+			(at 34.29 175.0826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/c0a97758-75a3-49d0-abcc-edce55d99095"
+					(page "6")
 				)
 			)
 		)
