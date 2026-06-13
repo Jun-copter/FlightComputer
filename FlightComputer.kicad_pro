@@ -679,7 +679,7 @@
         "uuid": "c0a97758-75a3-49d0-abcc-edce55d99095"
       }
     ],
-    "used_designators": "U8-9,#PWR64-78,C32-36,R12",
+    "used_designators": "C34,C37-38,#PWR57,#PWR59,#PWR64-68,#PWR77-83,U8,U10-12,CN2,USBC1",
     "variants": []
   },
   "sheets": [
@@ -698,6 +698,10 @@
     [
       "7db8ef18-98fd-453c-9757-095515a4ad55",
       "Power"
+    ],
+    [
+      "777105f3-a0fa-4258-a0c9-2622f44cc7f1",
+      "IO"
     ]
   ],
   "text_variables": {},
