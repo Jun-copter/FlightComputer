@@ -519,7 +519,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/<NO NET>"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -679,7 +684,7 @@
         "uuid": "c0a97758-75a3-49d0-abcc-edce55d99095"
       }
     ],
-    "used_designators": "#PWR50-52,#PWR69,#PWR82,#PWR84-96,R13-18,U13",
+    "used_designators": "#PWR50-52,#PWR69,#PWR82,#PWR84-96,R13-18,U13,C32",
     "variants": []
   },
   "sheets": [
