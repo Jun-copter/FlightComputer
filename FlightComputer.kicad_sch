@@ -1530,7 +1530,7 @@
 		)
 	)
 	(sheet
-		(at 34.29 151.638)
+		(at 33.274 148.59)
 		(size 40.64 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1546,7 +1546,7 @@
 		)
 		(uuid "adc4de3e-360b-4dcf-8274-516bcbd2c822")
 		(property "Sheetname" "COMMS"
-			(at 34.29 150.9264 0)
+			(at 33.274 147.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1557,7 +1557,7 @@
 			)
 		)
 		(property "Sheetfile" "COMMS.kicad_sch"
-			(at 34.29 180.1626 0)
+			(at 33.274 177.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
