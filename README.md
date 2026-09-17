@@ -51,10 +51,12 @@ Separating the rails keeps SD-card write spikes and WiFi bursts off the gyro sup
 ```
 ├── FlightComputer.kicad_pro     # KiCad project
 ├── FlightComputer.kicad_sch     # Top-level schematic
+├── FlightComputer.kicad_pcb     # KiCad pcb layout
 ├── mcu.kicad_sch                # MCU, debug
 ├── power.kicad_sch              # Power tree
 ├── IO.kicad_sch                 # USB, connectors, power mux
 ├── sensing_interface.kicad_sch  # Sensors
+├── COMMS.kicad_sch              # ExpressLRS connections
 ├── libraries/                   # LCSC-sourced symbols and footprints
 └── tools/
     └── import_lcsc.py           # Pulls LCSC parts into the project library
