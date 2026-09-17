@@ -8,7 +8,7 @@ An open-source ArduPilot-compatible flight controller for quadcopters, built aro
 
 ## Overview
 
-Most hobby flight controllers bolt an RC receiver and GPS module onto the outside of the board. This design integrates the ExpressLRS receiver directly onto the PCB, and moves the GNSS receiver and magnetometer onto a separate mast-mounted board where they belong — away from high-current traces and clear of 2.4 GHz desense.
+Most hobby flight controllers bolt an RC receiver and GPS module onto the outside of the board. This design integrates the ExpressLRS receiver directly onto the PCB, and moves the GNSS receiver and magnetometer onto a separate mast-mounted board where they belong, away from high-current traces and clear of 2.4 GHz desense.
 
 The result is a two-board system: a main flight controller carrying the MCU, sensors, power tree and radio, and a small NavBoard carrying GNSS and the compass.
 
