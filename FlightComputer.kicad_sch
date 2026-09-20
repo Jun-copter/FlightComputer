@@ -307,6 +307,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 156.21) (xy 93.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c27b901-77f9-4927-b581-5f5c9824b7c9")
+	)
+	(wire
+		(pts
 			(xy 127 121.92) (xy 113.03 121.92)
 		)
 		(stroke
@@ -514,6 +524,16 @@
 			(type default)
 		)
 		(uuid "e5199681-9df0-424d-bc4a-859ccf5d93d8")
+	)
+	(wire
+		(pts
+			(xy 73.66 153.67) (xy 93.98 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98e7eb6-6692-4213-ba2b-8e97d20b8b9a")
 	)
 	(wire
 		(pts
@@ -785,6 +805,16 @@
 		)
 		(uuid "69de756d-162f-4267-b02d-b8dba0a6c52b")
 	)
+	(label "UART1_RX"
+		(at 93.98 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83324048-2477-4775-b160-ffde1d5fc1c8")
+	)
 	(label "D2"
 		(at 127 77.47 180)
 		(effects
@@ -914,6 +944,16 @@
 			(justify right bottom)
 		)
 		(uuid "c74c69b7-ec68-4593-83b8-c028615c798b")
+	)
+	(label "UART1_TX"
+		(at 93.98 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9b99cdf-4b44-452b-b4d3-e832d7227794")
 	)
 	(label "USART4_TX"
 		(at 19.05 36.83 0)
@@ -1890,7 +1930,7 @@
 		)
 	)
 	(sheet
-		(at 33.274 148.59)
+		(at 33.02 148.59)
 		(size 40.64 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1906,7 +1946,7 @@
 		)
 		(uuid "adc4de3e-360b-4dcf-8274-516bcbd2c822")
 		(property "Sheetname" "COMMS"
-			(at 33.274 147.8784 0)
+			(at 33.02 147.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1917,7 +1957,7 @@
 			)
 		)
 		(property "Sheetfile" "COMMS.kicad_sch"
-			(at 33.274 177.1146 0)
+			(at 33.02 177.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1925,6 +1965,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "UART1_RX" input
+			(at 73.66 153.67 0)
+			(uuid "2d70ff14-7414-49dc-80ca-5ea8fca2fab8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_TX" input
+			(at 73.66 156.21 0)
+			(uuid "001cb593-ab14-4181-a4cf-f8c9ac2503f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

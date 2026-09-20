@@ -2015,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 30.48) (xy 252.73 30.48)
+			(xy 196.85 36.83) (xy 218.44 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 27.94) (xy 252.73 27.94)
+			(xy 196.85 34.29) (xy 218.44 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2315,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 33.02) (xy 252.73 33.02)
+			(xy 196.85 39.37) (xy 218.44 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2334,7 @@
 		(uuid "0ba42140-4556-469b-981f-57ba3236aa90")
 	)
 	(label "SPI1_MOSI"
-		(at 231.14 33.02 0)
+		(at 196.85 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2384,7 +2384,7 @@
 		(uuid "8e928bc5-bb6a-448e-95cc-edcbfccd9528")
 	)
 	(label "SPI1_MISO"
-		(at 231.14 30.48 0)
+		(at 196.85 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2424,7 +2424,7 @@
 		(uuid "dc6b2b1c-de0b-4881-ae7f-d9829bef0f22")
 	)
 	(label "SPI1_SCK"
-		(at 231.14 27.94 0)
+		(at 196.85 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2445,7 +2445,7 @@
 	)
 	(hierarchical_label "SPI1_MOSI"
 		(shape output)
-		(at 252.73 33.02 0)
+		(at 218.44 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,7 +2456,7 @@
 	)
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
-		(at 252.73 30.48 0)
+		(at 218.44 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2500,7 +2500,7 @@
 	)
 	(hierarchical_label "SPI1_SCK"
 		(shape bidirectional)
-		(at 252.73 27.94 0)
+		(at 218.44 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
